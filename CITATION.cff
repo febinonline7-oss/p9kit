@@ -6,7 +6,7 @@ authors:
   - family-names: "S"
     given-names: "Febin"
     affiliation: "Independent researcher, Thiruvananthapuram, India"
-version: 0.1.0
+version: 0.1.1
 date-released: "2026-10-04"
 license: MIT
 repository-code: "https://github.com/USERNAME/p9kit"
