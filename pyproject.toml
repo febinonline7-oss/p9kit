@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "p9kit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Search for distant solar system perturbers: orbit-clustering inference and shift-and-stack imaging, with the checks that make a null result meaningful"
 readme = "README.md"
 requires-python = ">=3.9"
