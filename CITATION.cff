@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "p9kit: distant solar system perturber searches with simulation-based inference and shift-and-stack"
+message: "If you use this software, please cite it."
+type: software
+authors:
+  - family-names: "S"
+    given-names: "Febin"
+    affiliation: "Independent researcher, Thiruvananthapuram, India"
+version: 0.1.0
+date-released: "2026-10-04"
+license: MIT
+repository-code: "https://github.com/USERNAME/p9kit"
+keywords:
+  - astronomy
+  - Planet Nine
+  - trans-Neptunian objects
+  - simulation-based inference

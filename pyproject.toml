@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p9kit"
+version = "0.1.0"
+description = "Search for distant solar system perturbers: orbit-clustering inference and shift-and-stack imaging, with the checks that make a null result meaningful"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Febin S" }]
+keywords = ["astronomy", "planet nine", "trans-neptunian objects", "shift-and-stack",
+            "simulation-based inference", "ZTF"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Astronomy",
+]
+dependencies = ["numpy>=1.22", "scipy>=1.8", "pandas>=1.4", "matplotlib>=3.5", "astropy>=5.0"]
+
+[project.optional-dependencies]
+infer = ["sbi>=0.22", "torch>=2.0"]
+cnn = ["torch>=2.0"]
+survey = ["astroquery>=0.4.6", "requests>=2.25"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+all = ["p9kit[infer,cnn,survey,dev]"]
+
+[project.scripts]
+p9kit = "p9kit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/USERNAME/p9kit"
+Issues = "https://github.com/USERNAME/p9kit/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["p9kit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
