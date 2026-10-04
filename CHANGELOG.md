@@ -5,7 +5,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-## [0.1.0] - 2026-10-04
+## [0.1.1] - 2026-10-04
+
+### Changed
+* Flattened the repository layout so the package and tests sit in two folders.
+* Archived on Zenodo; releases now have a DOI.
 
 First public release, extracted from a working search of two ZTF fields.
 
