@@ -1,6 +1,7 @@
 # p9kit
 
 [![tests](https://github.com/USERNAME/p9kit/actions/workflows/tests.yml/badge.svg)](https://github.com/USERNAME/p9kit/actions/workflows/tests.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23156965.svg)](https://doi.org/10.5281/zenodo.23156965)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Tools for searching for distant solar system perturbers — and for finding out whether your search means anything.**
