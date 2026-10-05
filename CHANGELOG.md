@@ -5,7 +5,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-## [0.1.1] - 2026-10-04
+## [0.1.1] - 2026-10-05
 
 ### Changed
 * Flattened the repository layout so the package and tests sit in two folders.
